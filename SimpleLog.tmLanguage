@@ -65,7 +65,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(\d\d/\d\d/\d\d)\s+(\d\d:\d\d:\d\d)\s+(\+\d\d\d\d)\s+((TRACE)|(DEBUG)|(INFO)|(WARN|ERROR)|(FATAL))\s+((\w+(/\w+)*)?>)\s+(.*)$</string>
+			<string>^(\d\d/\d\d/\d\d)\s+(\d\d:\d\d:\d\d)\s+(\+\d\d\d\d)\s+((TRACE)|(DEBUG)|(INFO)|(WARN|ERROR)|(FATAL))\s+(([^/>]+(/[^/>]+)*)?>)\s+(.*)$</string>
 			<key>name</key>
 			<string>message.simplelog</string>
 		</dict>
